@@ -30,7 +30,7 @@ public class CardNegativeTest {
     }
 
     @Test
-    public void EmptyTest() {
+    public void emptyTest() {
         driver.findElement(By.cssSelector("[data-test-id ='name'] input")).clear();
         driver.findElement(By.cssSelector("[data-test-id ='phone'] input")).clear();
         driver.findElement(By.cssSelector("[data-test-id ='agreement']")).click();
